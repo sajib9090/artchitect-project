@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* header section starts here */
+#header{
+    background-color: #FFF4E7;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.brand h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+}
+.navmenu li{
+    list-style: none;
+}
+.navmenu li a{
+    text-decoration: none;
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+/* header section ends here */
+
+/* hero section starts here */
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px 40px 100px;
+}
+.hero-content-info{
+    text-align: center;
+}
+.hero-content-info h1{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.hero-content-info p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 100px;
+}
+.hero-content-info button{
+    background-color: #FF900E;
+    border: none;
+    padding: 18px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 50px;
+}
+.hero-content-banner img{
+    width: 100%;
+}
+/* hero section ends here */
+
+/* features section starts here */
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 85px;
+    grid-column-gap: 50px;
+    align-items: center;
+    padding: 0 120px;
+}
+.features-container-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.feature-image img{
+    width: 100%;
+}
+.features-container-info h2{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.features-container-info .quick{
+    color: #727272;
+    font-weight: 500;
+}
+.features-container-info .our{
+    color: #131313;
+}
+.features-container-info p{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+}
+.features-container-info button{
+    border: none;
+    background-color: #FF900E;
+    padding: 18px 24px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 25px;
+}
+/* features section ends here  */
+
+/* experience section starts here  */
+.experience{
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 54px;
+    padding: 0 100px;
+    align-items: center;
+}
+.experience-features{
+    border-left: 5px solid#FF900E;
+}
+.experience-features h2{
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px 50px 10px 20px;  
+    margin-top: 20px;
+}
+.experience-title p{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 14px 0;
+}
+.experience-banner img{
+    width: 100%;
+}
+.experience-info{
+    padding: 20px 40px 20px 30px;
+    box-shadow: 5px 5px 10px rgb(247, 247, 247);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.experience-info h6{
+    color: #131313;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.experience-info p{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+}
+.experience-box-info{
+    position: relative;
+    right: -105%;
+    top: -110px;
+}
+.experience-box-info button{
+    background-color: #FF900E;
+    border: none;
+    padding: 25px 35px;
+    border-radius: 5px;
+}
+.experience-box-info button h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.experience-box-info button p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+/* experience section ends here  */
+
+/* some-facts section starts here  */
+.some-facts{
+    margin-top: 130px;
+    padding: 0 100px;
+}
+.some-facts-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 100px;
+}
+.some-facts-content-1 > h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #131313;
+    padding-bottom: 20px;
+}
+.some-facts-content-1 > p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+}
+.some-facts-content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.some-facts-content-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+    align-items: center;
+}
+.some-facts-info{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 25px 30px;
+    transition: transform 1s ease-in-out;
+}
+.some-facts-info:hover{
+    transform: scale(1.2);
+}
+.some-facts-info h1{
+    color: #424242;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0 5px 0;
+}
+.some-facts-info p{
+    color: #727272;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* some-facts section ends here  */
+
+
+/* mobile version */
+
+@media screen and (max-width: 576px) {
+    .break-line{
+        display: none;
+    }
+    /* header section starts here */
+    .navbar {
+        padding: 20px 20px;
+    }
+    .brand h2 {
+        font-size: 25px;
+    }
+    .navmenu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    /* header section ends here */
+
+    /* hero section starts here */
+   
+    .hero {
+        padding: 100px 10px 30px 10px;
+    }
+    .hero-content-info h1 {
+        font-size: 40px;
+    }
+    .hero-content-info p {
+        padding: 20px 20px;
+    }
+    .hero-content-info button {
+        margin-bottom: 20px;
+    }
+    /* hero section ends here */
+
+    /* features section starts here */
+    .features {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        padding: 0 20px;
+    }
+    .features-container-info{
+        text-align: center;
+    }
+    .features-container-info h2 {
+        font-size: 40px;
+    }
+    /* features section ends here */
+
+    /* experience section starts here  */
+    .experience {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
+    }
+    .experience-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .experience-box-info {
+        right: auto;
+        top: auto;
+    }
+    /* experience section ends here  */
+
+    /* some-facts section starts here  */
+    .some-facts {
+        padding: 0 20px;
+    }
+    .some-facts-container {
+        grid-row-gap: 60px;
+    }
+    .some-facts-content-box {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 50px;
+    }
+    /* some-facts section ends here  */
+}
