@@ -109,7 +109,7 @@
 }
 .features-container-info p{
     color: #727272;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
 }
 .features-container-info button{
@@ -120,7 +120,7 @@
     color: white;
     font-weight: 600;
     font-size: 18px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 /* features section ends here  */
 
@@ -138,14 +138,14 @@
 }
 .experience-features h2{
     color: #131313;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     padding: 10px 50px 10px 20px;  
     margin-top: 20px;
 }
 .experience-title p{
     color: #727272;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     padding: 14px 0;
 }
@@ -155,19 +155,19 @@
 .experience-info{
     padding: 20px 10px 20px 30px;
     box-shadow: 5px 5px 10px rgb(247, 247, 247);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 
 .experience-info h6{
     color: #131313;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     padding-bottom: 10px;
 }
 .experience-info p{
     color: #727272;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
 }
 .experience-box-info{
@@ -205,13 +205,13 @@
     grid-row-gap: 100px;
 }
 .some-facts-content-1 > h1{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     color: #131313;
     padding-bottom: 20px;
 }
 .some-facts-content-1 > p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #727272;
 }
@@ -230,11 +230,12 @@
     text-align: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding: 25px 30px;
-    transition: transform 1s ease-in-out;
+    padding: 40px 30px 50px 30px;
+    transition: 1s ease-in-out;
 }
 .some-facts-info:hover{
     transform: scale(1.2);
+    background-color: #FFF4E7;
 }
 .some-facts-info h1{
     color: #424242;
@@ -283,6 +284,9 @@
 }
 
 /* sponsor section ends here */
+/* contact us section starts here */
+
+/* contact us section ends here */
 /* footer section starts here */
 .footer{
     margin: 130px 100px 150px 100px;
@@ -360,6 +364,10 @@
         grid-template-columns: repeat(1, 1fr);
         padding: 0 20px;
     }
+    .experience-features h2 {
+        padding: 10px 20px 10px 20px;
+        font-size: 34px;
+    }
     .experience-box {
         display: flex;
         align-items: center;
@@ -395,13 +403,15 @@
     }
     .sponsor-brand {
         grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 60px;
+        grid-row-gap: 70px;
     }
     .sponsor-brand img{
         width: 100%;
-        padding: 0 50px;
+        padding: 0 80px;
     }
     /* sponsor section ends here */
+
+   
 
     /* footer section starts here */
     .footer {
