@@ -365,9 +365,15 @@
         grid-row-gap: 30px;
         padding: 0 50px;
     }
+    .experience-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
     .experience-box-info {
-        right: -30%;
-        top: 0px;
+        right: auto;
+        top: auto;
     }
 
     /* experience section ends here */
