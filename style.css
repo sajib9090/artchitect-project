@@ -344,6 +344,9 @@
         grid-row-gap: 50px;
         padding: 0 20px;
     }
+    .features-container-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .features-container-info{
         text-align: center;
     }
@@ -396,6 +399,7 @@
     }
     .sponsor-brand img{
         width: 100%;
+        padding: 0 50px;
     }
     /* sponsor section ends here */
 
